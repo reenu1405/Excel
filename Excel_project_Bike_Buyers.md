@@ -8,6 +8,7 @@
 *   [Delete Duplicate](#DeleteDuplicate)
 *   [Clean The Data](#clean)
 *   [Pivot Table](#pivot)
+*   [Dashboard](#dashboard)
 
 
 <h2 id="DataOverview">Data Overview</h2>
@@ -28,8 +29,40 @@
 Create a new sheet : select any cell -> Insert -> Pivot -> give the range of whole table in Working Sheet-> OK.
 
 Ques: Build a Dashboard : The average income of person who either bought or did not buy a bike.
+**Pivot Table 1:**
 Income -> Value
 Gender -> Rows
+Purchased Bike -> columns
+Then insert a recommended Column chart for this. Give it axis title and chart titles.
+
+**Pivot Table 2:**
+Purchased Bike -> Value
+Commute Distance -> Rows
+Purchased Bike -> columns
+Then insert a recommended Line chart for this. Give it axis title and chart titles.
+
+**Pivot Table 3:**
+Purchased Bike -> Value
+Age Brackets -> Rows
+Purchased Bike -> columns
+Then insert a recommended Line chart for this. Give it axis title and chart titles.
+
+<h2 id="dashboard">Dashboard</h2>
+
+*   First we gonna copy all the charts from pivot sheet to dashboard sheet.
+*   Then remove the grid lines from View.
+*   Select some cells (ex: 6 rows* 15 columns) then select Merge & Center from Home. Fill it with color and Type a title: Bike Sales Dashboard.
+*   Arrange the height and width of the charts together for better presentation.
+*   Select Multiple charts together then -> shape format -> Align
+*   Add slicer for better sorting : marital Status, Region, Education form PivotChart Analyze -> insert slicer then choose.
+*   Click on slicer the from Slicer from Ribbon Display -> report connections -> select all the pivot tables. Do that with all the slicers then you can see the change in all the charts simultaneously.
+*   Arrange everything together and check the information with different slicers.
+
+
+
+
+
+
 
 
 
