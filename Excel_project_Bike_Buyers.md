@@ -11,9 +11,27 @@
 
 
 <h2 id="DataOverview">Data Overview</h2>
-        Go through the Dataset.
+        Go through the Dataset. Select the Dataset press Select all button (above left corner)
+        Add the :white_check_mark: Filter to all headers from Data -> Sort & Filter -> Filter or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + L =  Easily Check all the spelling from filter dropdown if you see any mistake correct it from  ->
 
 <h2 id="DeleteDuplicate">Delete Duplicate</h2>
-        Select the Dataset (ctrl+A) or simply press Select all button  -> Data -> Data Tools -> Remove Duplicates -> Select all the columns and :heavy_check_mark: *My table has headers*.
+        Select the Dataset (<kbd>Ctrl</kbd>+A) or simply press Select all button -> Data -> Data Tools -> Remove Duplicates -> :white_check_mark: Select all the columns and :white_check_mark: *My table has headers*.
 <h2 id="clean">Clean The Data</h2>
-        Correct the similar abb. such as M = Married and M = Male in Marital status and Gender respectively. -> ctrl+H -> click on options to maximize the find and replace box -> in *Search* dropdown select *by Column* -> :heavy_check_mark: Match Case 
+
+*   **Marital Status:**  Correct the similar abb. such as M = Married and M = Male in Marital status and Gender respectively. <br/> -> <kbd>Ctrl</kbd>+H -> click on options to maximize the find and replace box -> in :arrow_down_small: Search dropdown select: by Column -> :white_check_mark: Match Case -> select the column Marital Status -> Replace M with Married and S with Single  <br/>
+*   **Gender Column:** Do the same with Gender column : M to Male and F to Female.
+*   **Income :**   Select the column -> Go to Home -> Number -> :arrow_down_small: Select currency -> then Decrease the decimal option(remove the decimals).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
